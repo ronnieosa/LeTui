@@ -1,0 +1,325 @@
+header.header-join {
+    background: url(../image/banner-join.jpg) no-repeat center top;
+    height: 549px;
+}
+.banner-join{
+    height: 471px;
+}
+.banner-join{}
+.back-join{
+    background: #000;
+    opacity: .5;
+}
+.page-header{
+    margin-top: 18px;
+    padding-bottom: 16px;
+    color:#333333;
+    font-size: 27px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+.base_line{
+    position: absolute;
+    bottom: -1px;
+    left:0;
+    display: inline-block;
+    width:110px;
+    height:2px;
+    background: #fda839;
+}
+/*招聘信息*/
+.employ{
+    margin-top: 50px;
+}
+.employ-detail{
+    padding-top: 10px;
+}
+.employ-detail .title{
+    background: #ffa938;
+}
+.employ-detail .title .row > div{
+    height:60px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    color:#fff;
+}
+.employ-detail .title .row > div:first-child{
+    text-align: left;
+    padding-left: 30px;
+}
+.employ-detail .job ul{
+    margin-top: 20px;
+}
+.employ-detail .job li{
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+}
+.employ-detail .job li .row > div{
+    height:60px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    color:#333333;
+}
+.employ-detail .job li .row > div.command {
+    border-left: 1px solid #fff;
+    cursor: pointer;
+    padding-left: 0;
+    line-height: 70px;
+}
+.employ-detail .job li .row > div.command span{
+    display: inline-block;
+    width:21px;
+    height:21px;
+    background: url(../image/open.png) no-repeat center center;
+}
+.employ-detail .job li .row > div:first-child{
+    text-align: left;
+    padding-left: 30px;
+}
+.employ-detail .job li .job-detail{
+    background-color: #fbfbfb;
+    padding: 40px 15px;
+    padding-top: 20px;
+    display: none;
+}
+.employ-detail .job li .job-detail .tit{
+    font-size: 16px;
+    color:#333333;
+    margin-top: 20px;
+}
+.employ-detail .job li .job-detail .item p{
+    font-size: 12px;
+    color:#666666;
+    line-height: 25px;
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+/*.employ-detail .job li .adminActive{*/
+    /*display: block;*/
+/*}*/
+
+/*薪资福利*/
+.compensation{
+    margin-top: 32px;
+}
+.compensation .content{
+    padding-top: 10px;
+}
+.compensation .content li {
+    margin-bottom: 35px;
+}
+.compensation .content h3{
+    margin-top: 0;
+    font-size: 18px;
+    color:#333333;
+}
+.compensation .content p{
+    color: #999999;
+    padding-top: 15px;
+    margin-bottom: 0;
+    line-height: 35px;
+}
+
+/*showUs页面*/
+/*firm模块*/
+.banner-show a:hover{
+    cursor: pointer;
+}
+.firm-environment{
+    margin-top:60px;
+    margin-bottom: 25px;
+}
+.firm-environment .firm{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.firm .model{
+    position: absolute;
+    top:2px;
+    left:10px;
+    width: 330px;
+    height: 639px;
+    padding: 85px 20px;
+}
+.model h3{
+    font-size: 18px;
+    color:#ffa938;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.model p{
+    font-size: 16px;
+    color:#ffffff;
+    line-height: 30px;
+}
+.firm-environment .people{
+    margin-top: 60px;
+    padding: 0 10px;
+}
+.people ul{
+    margin-bottom: 0;
+}
+.people li{
+    float: left;
+    margin-right: 23px;
+    margin-bottom: 23px;
+}
+.people li:nth-of-type(3){
+    width: 410px;
+    height: 460px;
+    text-align: right;
+    position: relative;
+}
+
+.people li:nth-of-type(3) img{
+    float: right;
+}
+.people li:nth-of-type(3) img.aside{
+    position: absolute;
+    bottom:0;
+    right: -23px;
+}
+.people li:nth-of-type(3) .tit{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.people li:nth-of-type(3) .tit h3{
+    font-size: 16px;
+    color:#333333;
+    margin-bottom: 20px;
+}
+.short{
+    width:50px;
+}
+.people li:nth-last-child(1){
+    margin-right: 0;
+}
+/*移动端适配*/
+
+/*招聘*/
+@media (max-width: 1199px){
+    .employ-detail .job li .row > div {
+        font-size: 15px;
+    }
+    .people li:first-child img{
+        max-width: 430px;
+    }
+    .people li:nth-of-type(3) {
+        width: 24%;
+    }
+    .people li:nth-last-of-type(2) {
+        width:30%;
+    }
+    .people li:nth-of-type(3) img.aside{
+        bottom:116px;
+    }
+}
+@media (max-width: 991px){
+    .employ-detail .job li .row > div {
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    .employ-detail .job li .row > div {
+        font-size: 16px;
+    }
+    .people li:nth-of-type(3) {
+        width: 30%;
+    }
+    .people li:nth-last-of-type(2) {
+        display: none;
+        margin-left:60px;
+        width:35%;
+    }
+    .people li:last-child {
+        display: none;
+    }
+    .people li:nth-of-type(3) img.aside{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    header.header-join {
+        background: url(../image/banner-join.jpg) no-repeat center bottom;
+        height: 402px;
+    }
+    .banner-join{
+        height: 352px;
+    }
+    .employ-detail .job li .row > div {
+        font-size: 15px;
+    }
+    .employ-detail .title .row > div:nth-last-of-type(2){
+        text-align: left;
+    }
+    .employ-detail .title .row > div:first-child {
+        text-align: center;
+        padding-left: 0;
+    }
+    .employ-detail .job li .job-detail {
+        padding: 20px 15px;
+    }
+    .employ-detail .job li .job-detail .tit {
+        margin-bottom: 2px;
+    }
+    .employ-detail .job li .job-detail .item p {
+        margin-bottom: 3px;
+    }
+    .compensation .content li {
+        margin-bottom: 20px;
+    }
+    .compensation .content p {
+        padding-top: 5px;
+    }
+
+    .firm-environment .people {
+        padding: 0;
+        margin-top: 45px;
+    }
+    .people li{
+        float: none;
+        margin-right: 0;
+        width:100%;
+    }
+    .people li img{
+        margin: 0 auto;
+    }
+    .people li:nth-of-type(3) {
+        width:100%;
+    }
+    .people li:first-child img {
+        max-width: 345px;
+    }
+    .people li:nth-last-of-type(2) {
+        display: block;
+        margin-left:0px;
+       width:100%;
+    }
+    .people li:last-child {
+        display: block;
+    }
+    .mb_tit{
+        position: relative;
+    }
+    .mb_tit h3{
+        font-size: 16px;
+    }
+    .base_line {
+        position: absolute;
+        bottom: -15px;
+        display: inline-block;
+    }
+    .people ul {
+        margin-top: 20px;
+    }
+    .employ-detail .job li .job-detail .tit {
+        margin-top: 5px;
+    }
+}

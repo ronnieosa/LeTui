@@ -1,0 +1,131 @@
+header.header-connect {
+    background: url(../image/banner-connect.jpg) no-repeat center top;
+    height: 549px;
+}
+.banner-connect{
+    height: 471px;
+}
+.back-connect{
+    background: #000;
+    opacity: .5;
+}
+/*公司地址*/
+.firm-area{
+    margin-top: 50px;
+}
+.firm-area .tit{
+    font-size: 27px;
+    color:#333333;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+.firm-area .area-item{
+    width:100%;
+    height: 415px;
+    padding: 30px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 3px 3px 3px #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.firm-area .area-item .firm-info{
+    width: 415px;
+    float: left;
+}
+.firm-area .area-item .firm-info .page-header{
+    margin-top: 0px;
+    padding-bottom: 17px;
+    color: #333333;
+    font-size: 18px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+.firm-area .area-item .base_line{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background: #fda839;
+}
+.firm-area .area-item ul{
+    padding-top: 20px;
+}
+.firm-area .area-item li{
+    margin-bottom: 30px;
+    display: block;
+}
+.firm-area .area-item li > div:first-child{
+    float: left;
+}
+.firm-area .area-item li > div:nth-of-type(2){
+    padding-left: 40px;
+    padding-top: 2px;
+    font-size: 16px;
+    color:#333333;
+}
+.firm-area .area-item li div.icon{
+    width:25px;
+    height: 25px;
+
+}
+.icon_firm_posi{
+    background: url(../image/icon_firm1.png) no-repeat center center;
+}
+.icon_firm_tel{
+    background: url(../image/icon_firm2.png) no-repeat center center;
+}
+.icon_firm_email{
+    background: url(../image/icon_firm3.png) no-repeat center center;
+}
+.area-item .firm-map{
+    margin-left: 470px;
+    width:688px;
+    height: 350px;
+}
+/*移动端适配*/
+@media (max-width: 1199px){
+    .firm-area .area-item .firm-info {
+        width: 380px;
+    }
+    .area-item .firm-map {
+        margin-left: 400px;
+        width: 478px;
+        height: 350px;
+    }
+}
+@media (max-width: 991px){
+    .firm-area .area-item {
+        height: auto;
+
+    }
+    .firm-area .area-item .firm-info {
+        width: 100%;
+        float: none;
+    }
+    .area-item .firm-map {
+        margin-left: 0px;
+        width: 100%;
+        height: 350px;
+    }
+}
+@media (max-width: 767px){
+    header.header-connect {
+        background: url(../image/banner-connect.jpg) no-repeat 33% 57%;
+        height: 402px;
+    }
+    .banner-connect{
+        height: 352px;
+    }
+    /*.firm-area {*/
+        /*margin-top: 20px;*/
+    /*}*/
+    .firm-area .tit {
+        margin-bottom: 25px;
+    }
+    .firm-area .area-item {
+        width: 100%;
+        padding: 15px;
+    }
+}

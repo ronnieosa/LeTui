@@ -1,0 +1,205 @@
+header.header-about{
+    background: url(../image/banner-about.jpg) no-repeat center top;
+    height: 549px;
+}
+.banner-about{
+    height: 471px;
+}
+.back-about{
+    background: #000;
+    opacity: .5;
+}
+/*关于公司*/
+.about-firm{
+    margin-top: 52px;
+}
+.page-header{
+    margin-top: 18px;
+    padding-bottom: 16px;
+    color:#333333;
+    font-size: 27px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    font-weight: lighter;
+}
+.base_line{
+    position: absolute;
+    bottom: -1px;
+    left:0;
+    display: inline-block;
+    width:110px;
+    height:2px;
+    background: #fda839;
+}
+.about-firm .info{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.about-firm .info p{
+    padding: 18px 0;
+    margin-bottom: 0;
+    line-height: 25px;
+    color:#666666;
+}
+.about-firm .imgArea{
+    margin-top: 47px;
+}
+.about-firm .imgArea p{
+    margin-top: 45px;
+    color:#666666;
+}
+.about-firm .imgArea p:nth-of-type(2){
+    text-align: right;
+    padding-right: 53px;
+}
+.fill{
+    height: 30px;
+}
+.about-firm .imgArea .row >div:nth-of-type(4){
+    text-align: right;
+}
+.about-firm .imgArea .row >div:nth-of-type(5){
+    padding-top: 20px;
+    padding-left: 45px;
+}
+.about-firm .imgArea .row >div:nth-of-type(5) p{
+    text-align: center;
+    margin-right: 6%;
+}
+/*企业文化*/
+.business-culture{
+    overflow: hidden;
+    margin-top: 22px;
+    margin-bottom: 45px;
+}
+.business-culture ul{
+    padding-top: 20px;
+}
+.business-culture ul li{
+    color:#666666;
+    margin-bottom: 35px;
+}
+.business-culture ul li p{
+    line-height: 25px;
+}
+/*发展历程*/
+.development-history{
+    background: #f2f2f2;
+    padding-top: 52px;
+    padding-bottom: 15px;
+}
+.development-history .row{
+    padding-top: 20px;
+}
+.development-history .row div:first-child{}
+.development-history .row ul{
+    margin-top: 55px;
+}
+.development-history .row li{
+    color:#929292;
+    text-align: right;
+    margin-right: 5px;
+    padding: 8px 0;
+}
+
+.development-history .row li.line{
+    margin-right: 22px;
+}
+.development-history .row li.line span{
+    display: inline-block;
+    height: 135px;
+    width:1px;
+    background: #e1e1df;
+}
+.development-history .row .deve-item{
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 4px 4px 7px #e1e1df;
+    margin-bottom: 45px;
+}
+.development-history .row .deve-item .aside-img{
+    float: left;
+}
+.development-history .row .deve-item .introduce {
+    width: 100%;
+    height: 126px;
+    padding-left: 245px;
+    padding-right: 10px;
+}
+.development-history .row .deve-item .introduce h3{
+    font-size: 18px;
+    color: #333333;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.development-history .row .deve-item .introduce p{
+    color:#666666;
+    padding-top: 8px;
+}
+/*移动端适配*/
+@media (max-width: 1199px){
+    .about-firm .imgArea p {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 991px){
+    .about-firm .imgArea p {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 767px){
+    header.header-about {
+        background: url(../image/banner-about.jpg) no-repeat 68% 60%;
+        height: 402px;
+    }
+    .banner-about {
+        height: 352px;
+    }
+    .about-firm {
+        margin-top: 42px;
+    }
+    .fill {
+        height: 50px;
+    }
+    .about-firm .imgArea .row >div:nth-of-type(5) {
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+    .about-firm .imgArea .row >div:nth-of-type(5) p {
+        text-align: center;
+        margin-right: 0;
+    }
+    .business-culture {
+        margin-bottom: 25px;
+    }
+    .development-history {
+        padding-top: 20px;
+    }
+
+    .development-history .row .deve-item .aside-img {
+        float: none;
+        text-align: center;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .development-history .row .deve-item .introduce {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    .development-history .row .deve-item .introduce p {
+        color: #666666;
+        padding-top: 8px;
+        margin-bottom: 0;
+    }
+    .development-history .row .deve-item {
+        margin-bottom: 30px;
+    }
+    .mobile-year{
+        color: #929292;
+        padding: 8px 0;
+    }
+}
